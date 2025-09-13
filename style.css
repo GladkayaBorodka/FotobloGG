@@ -1,0 +1,125 @@
+:root {
+	--paragraph-color: rgba(125, 125, 125, 1);
+	--link-color: rgba(3, 169, 244, 1);
+	--subtitle-color: rgba(180, 173, 158, 1);
+	--article-text-color: rgba(98, 98, 98, 1);
+	--background-color: rgba(255, 255, 255, 1);
+	--main-font: 'Playfair Display', sans-serif;
+	--secondary-font: 'Ubuntu', sans-serif;
+}
+
+body {
+	line-height: 1;
+	font-family: var(--main-font);
+	font-size: 14px;
+	font-weight: 400;
+	background-color: var(--background-color);
+	margin: 0;
+}
+
+button {
+	cursor: pointer;
+	font-family: inherit;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--link-color);
+}
+
+.container {
+	width: 908px;
+	margin: 0 auto;
+}
+
+body,
+h2,
+h3,
+p,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	padding: 71px 183px 92px 168px;
+}
+
+.header-list {
+	display: flex;
+	align-items: center;
+	gap: 99px;
+	margin: 0 auto;
+	list-style: none;
+	text-transform: uppercase;
+	color: var(--paragraph-color);
+	justify-content: center;
+}
+
+.header-link {
+	color: var(--paragraph-color);
+	line-height: 18.66px;
+	font-weight: inherit;
+}
+
+.hero {
+	padding: 0 147px 66px;
+}
+
+.hero-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 65px;
+	row-gap: 130px;
+	margin-bottom: 94px;
+	list-style: none;
+}
+
+.hero-item {
+	flex-basis: calc((100% - 65px) / 3);
+}
+
+.hero-image,
+.hero-subtitle {
+	margin-bottom: 32px;
+}
+
+.hero-title {
+	margin-bottom: 40px;
+	font-size: 30px;
+	color: var(--article-text-color);
+	line-height: 16.09px;
+	font-weight: 400;
+}
+
+.hero-subtitle {
+	color: var(--subtitle-color);
+	font-family: var(--secondary-font);
+	line-height: 100%;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.hero-description {
+	font-family: var(--main-font);
+	color: var(--article-text-color);
+	font-weight: 400;
+	line-height: 18.66px;
+	font-size: 14px;
+}
+
+.hero-button {
+	background-color: var(--background-color);
+	color: var(--article-text-color);
+	border: 1px solid var(--article-text-color);
+	font-weight: 400;
+	display: block;
+	margin: 0 auto;
+	padding: 20px 48px 21px 49px;
+	line-height: 18.66px;
+}
