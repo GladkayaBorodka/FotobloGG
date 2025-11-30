@@ -13,10 +13,9 @@ body {
     font-size: 14px;
     background-color: var(--background-color);
 }
-
 button {
     cursor: pointer;
-    font-family: inherit;
+    font-family: var(--main-font);
 }
 
 a {
@@ -62,7 +61,6 @@ a:hover {
     gap: 65px;
     row-gap: 130px;
     margin-bottom: 94px;
-    
 }
 
 .hero-item {
